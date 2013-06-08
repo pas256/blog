@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Google – Hexus One"
+title: "Google - Hexus One"
 date: 2010-01-08 22:08
 comments: true
 categories:
