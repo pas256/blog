@@ -16,7 +16,7 @@ I have seen many people on the interwebs using dd and `/dev/zero` to create empt
 truncate -s 50G my-large-file
 ```
 
-Boom – instant.
+Boom - instant.
 
 This is great for doing things like mounting /tmp on EC2 to the ephemeral storage so /tmp is not limited to 10Gb (or whatever your root image size is)
 

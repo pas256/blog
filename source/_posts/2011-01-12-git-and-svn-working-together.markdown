@@ -22,7 +22,7 @@ cd project
 git --bare init
 ```
 
-Now clone the empty Git repository so you have a working directory, and the import the SVN repository into Git. The directory names need to match (in this case, they are both "project”):
+Now clone the empty Git repository so you have a working directory, and the import the SVN repository into Git. The directory names need to match (in this case, they are both "project"):
 
 ``` bash
 cd $HOME
@@ -30,7 +30,7 @@ git clone file://$HOME/git-repo/project
 git svn clone -s file://$HOME/svn-repo/project
 ```
 
-If all is going well, you should have a "project” directory with all of your files imported from SVN in it. This directory is also your Git clone. Now you can "push” these changes to your remote Git repository
+If all is going well, you should have a "project" directory with all of your files imported from SVN in it. This directory is also your Git clone. Now you can "push" these changes to your remote Git repository
 
 ``` bash
 cd $HOME/project
@@ -46,7 +46,7 @@ git commit -m "Adding a new file"
 git push
 ```
 
-We now have a change in Git that is not in SVN. To copy the change over to SVN we do a "dcommit”
+We now have a change in Git that is not in SVN. To copy the change over to SVN we do a "dcommit"
 
 ``` bash
 git svn dcommit
@@ -63,7 +63,7 @@ svn add svn-change.txt
 svn commit -m "Adding a new change in SVN"
 ```
 
-To get this change in Git, we need to "rebase”. This is not as scary as it sounds
+To get this change in Git, we need to "rebase". This is not as scary as it sounds
 
 ``` bash
 cd $HOME/project
