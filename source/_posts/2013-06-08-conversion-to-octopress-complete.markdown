@@ -20,5 +20,11 @@ cd public
 s3cmd sync . s3://blog.pas.net.au/
 ```
 
+The source in case you are interested is on Github at:
+
+https://github.com/pas256/blog
+
+Thanks to [Jeff Barr](https://twitter.com/jeffbarr) for introducting me to Octopress on his [AWS Road Trip](http://awsroadtrip.com/).
+
 Looking forward to getting back into this - it has been too long without a good rant. :)
 
