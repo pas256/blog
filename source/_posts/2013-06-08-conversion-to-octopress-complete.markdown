@@ -10,7 +10,7 @@ categories:
 - s3
 - tech
 ---
-Well, I was up until the wee house of the night last night, but I finally converted my blog to [Octopress](http://octopress.org/) and have it hosted on AWS S3. I must say, I really like Octopress and am becoming a big fan of generated static websites (such as [Github pages](http://pages.github.com/)), where anything complicated is handled by JavaScript. The only unfortunate thing is that I couldn't bring the comments over from Wordpress and put them into Disqus.
+Well, I was up until the wee hours of the night last night, but I finally converted my blog to [Octopress](http://octopress.org/) and have it hosted on AWS S3. I must say, I really like Octopress and am becoming a big fan of generated static websites (such as [Github pages](http://pages.github.com/)), where anything complicated is handled by JavaScript. The only unfortunate thing is that I couldn't bring the comments over from Wordpress and put them into Disqus.
 
 Generating the site and pushing it to S3 is as easy as:
 
