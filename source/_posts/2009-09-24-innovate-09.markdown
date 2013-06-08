@@ -1,0 +1,13 @@
+---
+layout: post
+title: "Innovate 09"
+date: 2009-09-24 08:14
+comments: true
+categories:
+- conference
+- discount
+- promotion
+---
+If anyone is interested in going to the [PayPal X (Innovate 09) conference](https://www.paypal-communications.com/innovate2009/), I have come across is discount. A special rate of $149 (50% off the price) if you enter promotion/coupon code: **PayPalHR**
+
+Enjoy!
