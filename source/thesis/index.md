@@ -1,10 +1,9 @@
 ---
 layout: page
 title: "Profiling in Parallel to Reduce Overhead"
-date: 2013-06-07 23:00
-comments: true
-sharing: true
-footer: true
+comments: false
+sharing: false
+footer: false
 ---
 - You can read it here: [Thesis - Profiling in Parallel to Reduce Overhead](peter-sankauskas-thesis.pdf)
 - For my Computer Science thesis at UNSW, I developed a method of performing profiling of a program in parallel with the program's original code.
