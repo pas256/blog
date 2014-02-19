@@ -1,0 +1,9 @@
+#!/bin/bash
+
+set -e
+
+chenv sank blog
+cd public
+aws s3 sync ./ s3://blog.pas.net.au/
+
+echo "-- DONE --"
